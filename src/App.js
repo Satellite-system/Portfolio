@@ -1,7 +1,11 @@
+import Navbar from "./component/navbar/Navbar";
+import './App.css'
+
 function App() {
   return (
     <div className="App">
-      Subscribe ZainKeepsCode
+      <Navbar />
+      Hello World! Sun is getting down
     </div>
   );
 }
