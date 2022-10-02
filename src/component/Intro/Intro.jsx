@@ -35,9 +35,15 @@ function Intro() {
          <img src={Vector1} alt=""/>
          <img src={Vector2} alt=""/>
          <img src={boy} alt="" />
-         <div>
-            <FloatingDiv />
+         <img src={glassesimoji} className='i-img'/>
+         <div className='i-div1'>
+            <FloatingDiv img={crown} txt1={"Web"} txt2={"Developer"} />
          </div>
+         <div className='i-div2'>
+            <FloatingDiv img={thumbup} txt1={"Competitive"} txt2={"Programmer"} />
+         </div>
+         <div className="i-blur" style={{ background: "rgb(238 210 255)" }} />
+         <div className="i-blur2" />
       </div>
     </div>
   )
