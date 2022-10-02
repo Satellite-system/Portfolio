@@ -42,8 +42,8 @@ function Intro() {
          <div className='i-div2'>
             <FloatingDiv img={thumbup} txt1={"Competitive"} txt2={"Programmer"} />
          </div>
-         <div className="i-blur" style={{ background: "rgb(238 210 255)" }} />
-         <div className="i-blur2" />
+         <div className="blur" style={{ background: "rgb(238 210 255)" }} />
+         <div className="blur i-blur" />
       </div>
     </div>
   )

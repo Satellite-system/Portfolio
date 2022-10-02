@@ -76,9 +76,8 @@
    top: 0rem;
    left: 28%;
 }
-.i-blur{
+.blur{
    position: absolute;
-   background: #edd0ff;
    height: 14rem;
    width: 22rem;
    z-index: -9;
@@ -88,14 +87,12 @@
    z-index: -9;
    filter: blur(72px);
 }
-.i-blur2{
-   position: absolute;
+.i-blur{
    background: #C1F5FF;
    height: 11rem;
    width: 21rem;
-   filter: blur(72px);
    z-index: 10;
-   top: 17rem;
+   top: 16rem;
    left: -9rem;
    z-index: -9;
 }
