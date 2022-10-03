@@ -15,9 +15,7 @@ function Portfolio() {
          <span>Portfolio</span>
 
          {/* Slider */}
-         <Swiper className='porfolio-slider' spaceBetween={30} slidesPerView={3} grabCursor={true}
-
-         >
+         <Swiper className='porfolio-slider' spaceBetween={30} slidesPerView={3} grabCursor={true}  >
             <SwiperSlide>
                <img src={sidebar} alt="" />
             </SwiperSlide>
