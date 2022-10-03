@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Gumela';
+  src: local('Gumela'), url(./fonts/Gumela\ Regular.otf) format('opentype');
+} 
+/* other formats include: 'woff2', 'truetype, 'opentype',  'embedded-opentype', and 'svg' */
 :root
 {
   --yellow: #F5C32C;
@@ -14,7 +19,8 @@
 .App{
     padding: 0.5rem 3.5rem;
     overflow: hidden;
-    color: var(--black);    
+    color: var(--black);  
+    font-family: Gumela;
 }
 
 .btn{
