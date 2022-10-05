@@ -1,0 +1,35 @@
+.footer{
+   display: flex;
+   align-items: center;
+   margin: 0 -3.5rem;
+   position: relative;
+   height: 40vh;
+   /* position: absolute; */
+   /* margin-top: -7rem; */
+   /* top: 700%; */
+}
+.footer img{
+   /* transform: scaleY(0.5); */
+}
+.f-content{
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   margin-top: 3rem;
+   gap: 3rem;
+   color: white;
+   /* background-color: greenyellow; */
+}
+.f-content>span:nth-last-of-type(1){
+   font-size: larger;
+}
+.f-content a:hover{
+   cursor: pointer;
+}
+.f-icons{
+   display: flex;
+   gap: 2rem;
+}
