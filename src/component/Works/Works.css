@@ -73,3 +73,20 @@
    left: 9rem;
    top: 8rem;
 }
+@media screen and (max-width: 480px) {
+   .works{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      height: 40rem;
+      background-color: rgb(232, 238, 139);
+      margin: 0;
+      padding: 0;
+   }
+   .w-right{
+      transform: scale(0.6);
+      /* position: static; */
+      margin-top: 0;
+      margin-right: 8rem;
+   }
+}

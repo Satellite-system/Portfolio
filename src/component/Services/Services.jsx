@@ -12,17 +12,17 @@ const Services = () => {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className="services">
+    <div className="services" id='Services'>
       <div className="awesome">
         <span style={darkMode? {color:'#ffffff'}:{}}>My Awesome</span>
         <span>services</span>
         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          <br /> Neque distinctio, voluptatum commodi quasi provident rerum!</span>
-          <a href={Resume} download>
+        <br /> Neque distinctio, voluptatum commodi quasi provident!</span>
+        <a href={Resume} download>
           <button className='btn s-btn'>Download CV</button>
-          </a>
-          <div className="blur s-blur1"/>
-          <div className="blur s-blur2"/>
+        </a>
+        <div className="blur s-blur1"/>
+        <div className="blur s-blur2"/>
 
       </div>  
       <div className="cards">

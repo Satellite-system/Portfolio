@@ -29,7 +29,7 @@ function Testimonial() {
       },
    ]
   return (
-    <div className="t-wrapper">
+    <div className="t-wrapper" id='Testimonial'>
       <div className="t-heading">
          <span>Clients always get </span>
          <span>Exceptional Work </span>

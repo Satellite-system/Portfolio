@@ -47,3 +47,33 @@
 .cards>*{
    position: absolute;
 }
+@media screen and (max-width: 480px) {
+   .services{
+      margin-top: 0;
+      flex-direction: column;
+      gap: 2rem;
+      height: 70rem;
+      padding: 0;
+      margin-bottom: 0;
+      background-color: greenyellow;
+   }
+   .awesome{
+      flex: 0;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .cards{
+      display: flex;
+      flex-direction: column;
+      gap: 17rem;
+   }
+   .cards>*{
+      display: flex;
+      position: static;
+      justify-content: center;
+      /* align-items: center; */
+   }
+}

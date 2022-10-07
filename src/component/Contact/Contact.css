@@ -40,3 +40,25 @@ textarea{
    top: 1rem;
    left: 8rem;
 }
+@media screen and (max-width: 480px) {
+   .contact{
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+      gap: 2rem;
+      padding-top: 2rem;
+      height: 27rem;
+      background-color: yellow;
+   }
+   .contact-left{
+      flex: 0;
+      margin: 0;
+   }
+   .contact-right>form{
+      gap: 1.5rem;
+   }
+   .contact-right .user{
+      margin: 0 2rem;
+      width: 100%;
+   }
+}

@@ -46,7 +46,7 @@ function Contact() {
   }
 
   return (
-    <div className="contact">
+    <div className="contact" id='Contact'>
       <div className="contact-left">
          <div className="awesome">
             <span style={darkMode?{color:"#ffffff"}:{}}>Get in Touch</span>
