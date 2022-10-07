@@ -5,7 +5,7 @@ import profilePic1 from '../../img/profile1.jpg';
 import profilePic2 from '../../img/profile2.jpg';
 import profilePic3 from '../../img/profile3.jpg';
 import profilePic4 from '../../img/profile4.jpg';
-import { Pagination } from 'swiper';
+import { Pagination, Autoplay } from 'swiper';
 import 'swiper/css/pagination'
 import 'swiper/css'
 
@@ -38,8 +38,11 @@ function Testimonial() {
          <div className="blur t-blur2"></div>
       </div>
 
-      <Swiper modules={[Pagination]}
-      slidesPerView={1} pagination={{clickable:true}}>
+      <Swiper modules={[Pagination, Autoplay]}
+      slidesPerView={1} pagination={{clickable:true}} autoplay={{
+         delay: 3000,
+         disableOnInteraction: false,
+       }}>
          {clients.map((client, index)=>{
             return(
                <SwiperSlide key={index}>

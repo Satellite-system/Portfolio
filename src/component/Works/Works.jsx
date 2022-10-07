@@ -1,17 +1,20 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './Works.css'
 import UpWork from '../../img/Upwork.png'
 import fiverr from '../../img/fiverr.png'
 import amazon from '../../img/amazon.png'
 import shopify from '../../img/Shopify.png'
 import facebook from '../../img/Facebook.png'
-import { upload } from '@testing-library/user-event/dist/upload'
+import { themeContext } from '../../Context'
 
 function Works() {
+   const theme = useContext(themeContext);
+   const darkMode = theme.state.darkMode;
+
   return (
     <div className="works">
       <div className="awesome">
-        <span>Works for All these</span>
+        <span style={darkMode?{color:'#ffffff'}:{}}>Works for All these</span>
         <span>Brands & Clients</span>
         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem, ipsum dolor..
          <br /> 

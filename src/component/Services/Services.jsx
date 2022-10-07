@@ -1,16 +1,20 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Card from '../Card/Card'
 import './Services.css'
 import heartEmoji from '../../img/heartemoji.png'
 import glasses from '../../img/glasses.png'
 import humble from '../../img/humble.png'
 import Resume from './Adarsh Urmaliya Resume.pdf'
+import { themeContext } from '../../Context'
 
 const Services = () => {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <div className="services">
       <div className="awesome">
-        <span>My Awesome</span>
+        <span style={darkMode? {color:'#ffffff'}:{}}>My Awesome</span>
         <span>services</span>
         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <br /> Neque distinctio, voluptatum commodi quasi provident rerum!</span>
