@@ -4,6 +4,7 @@
    height: 70vh;
    margin-top: 4rem;
    padding: 0 3rem;
+   z-index: 1000;
 }
 .contact-left{
    flex: 1;
@@ -47,8 +48,7 @@ textarea{
       margin: 0;
       gap: 2rem;
       padding-top: 2rem;
-      height: 27rem;
-      background-color: yellow;
+      height: 31rem;
    }
    .contact-left{
       flex: 0;
