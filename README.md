@@ -32,6 +32,7 @@
 
 - [Table Of Contents](#table-of-contents)
 - [About The Project](#about-the-project)
+- [Sections](#sections)
 - [Built With](#built-with)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -60,6 +61,15 @@ With this open-source project, I hope to allow you to save as much time as it sa
 * You should element DRY principles to the rest of your life :smile:
 
 Feel free to suggest changes by opening a new issue, or if you want to implement your own, feel free to fork this repo and create a pull request.
+
+## Sections
+* [Summary and About me]()
+* [Education]()
+* [Skills]()
+* [Work Experience]()
+* [Projects]()
+* [Feedbacks]()
+* [Contact]()
 
 ## Built With
 
