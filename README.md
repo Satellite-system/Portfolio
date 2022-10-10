@@ -39,7 +39,6 @@
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
   - [Creating A Pull Request](#creating-a-pull-request)
-        - [OLD ONE FROM HERE](#old-one-from-here)
 - [Available Scripts](#available-scripts)
   - [`yarn start`](#yarn-start)
   - [`yarn test`](#yarn-test)
@@ -110,8 +109,6 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-###### OLD ONE FROM HERE 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
