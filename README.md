@@ -54,15 +54,13 @@
 
 There are many great ReadME templates available on GitHub, however, I struggled to find any ReadME generators. Throughout my open source project contributions, I've had to spend numerous hours editing README files which I could've spent developing instead. This paired with me often forgetting to change links, titles and sections made me look for a README generator.
 
-Whilst alternative options existed, I struggled to find one that could suit my needs whilst being fast and easy to use, the ones I found were command-line based, only taking a limited input with the inability to go back on, as such I've built this, a README Generator!
-
 With this open-source project, I hope to allow you to save as much time as it saved me, the benefits of this project are huge and here's why:
 
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
 * You shouldn't be doing the same tasks over and over like creating a README from scratch
 * You should element DRY principles to the rest of your life :smile:
 
-Of course, no one template will serve all projects since your needs may be different. Whilst this template has served my needs, it may not serve yours so I'll be continuing to work on this to make a more "Universal" and "Flexible" ReadME Generator in the future. Feel free to suggest changes by opening a new issue, or if you want to implement your own, feel free to fork this repo and create a pull request.
+Feel free to suggest changes by opening a new issue, or if you want to implement your own, feel free to fork this repo and create a pull request.
 
 ## Built With
 
@@ -72,9 +70,7 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 ## Getting Started
 
-
-
-This is an example of how you may give instructions on setting up your project locally.
+This is a Portfolio Website Project.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -86,25 +82,26 @@ This program has no pre-requisites
 1. Clone the repo
 
 ```sh
-git clone https://github.com/ShaanCoding/ReadME-Generator.git
+git clone https://github.com/Satellite-system/Portfolio.git
 ```
 
-2. Open The index.HTML file
+2. Open The src Folder
 
-3. Have fun!
+3. Edit as per your Requirements
+4. Have fun!
 
 
 ## Roadmap
 
-See the [open issues](https://github.com/ShaanCoding/ReadME-Generator/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/Satellite-system/Portfolio/issues) for a list of proposed features (and known issues).
 
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/ShaanCoding/ReadME-Generator/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
+* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/Satellite-system/Portfolio/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
 * Please make sure you check your spelling and grammar.
 * Create individual PR for each suggestion.
-* Please also read through the [Code Of Conduct](https://github.com/ShaanCoding/ReadME-Generator/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
+* Please also read through the [Code Of Conduct](https://github.com/Satellite-system/Portfolio/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
 
 ### Creating A Pull Request
 
@@ -156,5 +153,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Acknowledgements
+
+* [ZainRk](https://github.com/ZainRk/Personal-Portfolio-React)
 * [ShaanCoding](https://github.com/ShaanCoding/ReadME-Generator/tree/main#table-of-contents)
 * [ImgShields](https://shields.io/)
