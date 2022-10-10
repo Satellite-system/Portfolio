@@ -16,8 +16,10 @@ const Education = () => {
       <div className="awesome">
         <span style={darkMode? {color:'#ffffff'}:{}}>My Education &</span>
         <span>Skills</span>
-        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        <br /> Neque distinctio, voluptatum commodi quasi provident!</span>
+        <span><h2>B.Tech - 8.6 CGPA</h2></span>
+        <span><h3>Madhav Institute of Technology & Science</h3></span>
+        <span>Gwalior, Madhya Pradesh (2019-2023)</span>
+
         <a href={Resume} download>
           <button className='btn s-btn'>Download CV</button>
         </a>
