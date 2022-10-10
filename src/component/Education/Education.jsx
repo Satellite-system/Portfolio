@@ -27,15 +27,15 @@ const Education = () => {
       </div>  
       <div className="cards">
         <div style={{right:'14rem'}}>
-          <Card emoji={heartEmoji} heading={'Design'} detail={"Figma, Sketch, Photoshop, Adobe"}/>
+          <Card emoji={heartEmoji} heading={'Design'} detail={"Figma, Canva, Bootstrap, Tailwind Css"}/>
         </div>
 
         <div style={{left:'-37rem', top:"10rem"}}>
-          <Card emoji={glasses} heading={'Developer'} detail={"Html,Css, JavaScript, React Js"}/>
+          <Card emoji={glasses} heading={'Developer'} detail={"Html, Css, JavaScript, React Js, Node Js, Frame Js"}/>
         </div>
 
         <div style={{top:"19rem",left:'-20rem'}}>
-          <Card emoji={humble} heading={'UI/UX'} detail={"Lorem ipsum dolor sit amet consectetur"}/>
+          <Card emoji={humble} heading={'Languages & Tools'} detail={"C++, Git, Firebase, MongoDB, Android"}/>
         </div>
 
       </div>
