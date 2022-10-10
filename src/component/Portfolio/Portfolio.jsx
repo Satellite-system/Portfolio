@@ -5,6 +5,7 @@ import sidebar from '../../img/sidebar.png'
 import ecommerce from '../../img/ecommerce.png'
 import hoc from '../../img/hoc.png'
 import musicapp from '../../img/musicapp.png'
+import Notes_slidebar from '../../img/Sidebar-N.png'
 import 'swiper/css'
 import { themeContext } from '../../Context'
 
@@ -21,6 +22,9 @@ export default function Portfolio() {
 
          {/* Slider */}
          <Swiper className='porfolio-slider' spaceBetween={{innerWidth}>480?30:100}  slidesPerView={innerWidth>480?3:1} grabCursor={true} loop={true} >
+            <SwiperSlide>
+               <img src={Notes_slidebar} alt="" />
+            </SwiperSlide>
             <SwiperSlide>
                <img src={sidebar} alt="" />
             </SwiperSlide>

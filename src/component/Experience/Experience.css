@@ -6,7 +6,7 @@
    height: 30vh;
    margin: 0 15rem;
    margin-bottom: 8rem;
-   /* font-family: url('../../fonts/Gumela\ Regular.otf'); */
+   padding-top: 5rem;
 }
 .achievement{
    display: flex;

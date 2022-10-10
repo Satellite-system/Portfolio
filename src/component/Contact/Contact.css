@@ -2,9 +2,10 @@
    display: flex;
    flex-direction: row;
    height: 70vh;
-   margin-top: 4rem;
+   margin-top: 1rem;
    padding: 0 3rem;
    z-index: 1000;
+   padding-top: 8rem;
 }
 .contact-left{
    flex: 1;
