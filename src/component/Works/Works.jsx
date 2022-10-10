@@ -1,10 +1,10 @@
 import React, { useContext } from 'react'
 import './Works.css'
-import UpWork from '../../img/Upwork.png'
-import fiverr from '../../img/fiverr.png'
-import amazon from '../../img/amazon.png'
-import shopify from '../../img/Shopify.png'
-import facebook from '../../img/Facebook.png'
+import UpWork from '../../img/assets/Upwork.png'
+import fiverr from '../../img/assets/fiverr.png'
+import amazon from '../../img/assets/amazon.png'
+import shopify from '../../img/assets/Shopify.png'
+import facebook from '../../img/assets/Facebook.png'
 import { themeContext } from '../../Context'
 
 function Works() {
@@ -14,7 +14,7 @@ function Works() {
   return (
     <div className="works">
       <div className="awesome">
-        <span style={darkMode?{color:'#ffffff'}:{}}>Works for All these</span>
+        <span style={darkMode?{color:'#ffffff'}:{}}>Work Experience</span>
         <span>Brands & Clients</span>
         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem, ipsum dolor..
          <br /> 

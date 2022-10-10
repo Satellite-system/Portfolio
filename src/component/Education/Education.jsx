@@ -1,21 +1,21 @@
 import React, { useContext } from 'react'
 import Card from '../Card/Card'
-import './Services.css'
-import heartEmoji from '../../img/heartemoji.png'
-import glasses from '../../img/glasses.png'
-import humble from '../../img/humble.png'
+import './Education.css'
+import heartEmoji from '../../img/assets/heartemoji.png'
+import glasses from '../../img/assets/glasses.png'
+import humble from '../../img/assets/humble.png'
 import Resume from './Adarsh Urmaliya Resume.pdf'
 import { themeContext } from '../../Context'
 
-const Services = () => {
+const Education = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 
   return (
     <div className="services" id='Services'>
       <div className="awesome">
-        <span style={darkMode? {color:'#ffffff'}:{}}>My Awesome</span>
-        <span>services</span>
+        <span style={darkMode? {color:'#ffffff'}:{}}>My Education &</span>
+        <span>Skills</span>
         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
         <br /> Neque distinctio, voluptatum commodi quasi provident!</span>
         <a href={Resume} download>
@@ -43,4 +43,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Education

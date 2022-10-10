@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import Wave from '../../img/wave.png';
+import Wave from '../../img/assets/wave.png';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 

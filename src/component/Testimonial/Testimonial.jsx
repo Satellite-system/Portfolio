@@ -1,10 +1,10 @@
 import React from 'react'
 import './Testimonial.css'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import profilePic1 from '../../img/profile1.jpg';
-import profilePic2 from '../../img/profile2.jpg';
-import profilePic3 from '../../img/profile3.jpg';
-import profilePic4 from '../../img/profile4.jpg';
+import profilePic1 from '../../img/assets/profile1.jpg';
+import profilePic2 from '../../img/assets/profile2.jpg';
+import profilePic3 from '../../img/assets/profile3.jpg';
+import profilePic4 from '../../img/assets/profile4.jpg';
 import { Pagination, Autoplay } from 'swiper';
 import 'swiper/css/pagination'
 import 'swiper/css'

@@ -1,15 +1,16 @@
 import React, { useContext } from 'react'
 import './Intro.css'
-import Github from './../../img/github.png';
-import Linkedin from '../../img/linkedin.png';
-import gfg from '../../img/gfg.png';
-import thumbup from '../../img/thumbup.png';
-import crown from '../../img/crown.png'
-import glassesimoji from '../../img/glassesimoji.png'
-import Vector1 from '../../img/Vector1.png'
-import Vector2 from '../../img/Vector2.png'
-import boy from '../../img/boy.png'
+import Github from './../../img/assets/github.png';
+import Linkedin from '../../img/assets/linkedin.png';
+import gfg from '../../img/assets/gfg.png';
+import thumbup from '../../img/assets/thumbup.png';
+import crown from '../../img/assets/crown.png'
+import glassesimoji from '../../img/assets/glassesimoji.png'
+import Vector1 from '../../img/assets/Vector1.png'
+import Vector2 from '../../img/assets/Vector2.png'
+import boy from '../../img/assets/boy.png'
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
+import Resume from './Adarsh Urmaliya Resume.pdf'
 import { themeContext } from '../../Context';
 
 function Intro() {
@@ -24,7 +25,9 @@ function Intro() {
             <span>Adarsh Urmaliya</span>
             <span>an IT Student, Software Engineer and a Full Stack Developer in a perpetual state of learning new technologies. I love coding and creating new things. I'm always looking for new challenges. </span>
          </div>
-         <button className="btn i-btn">Hire me</button>
+         <a href={Resume} download>
+            <button className="btn i-btn">Download CV</button>
+         </a>
          <div className="i-icons">
             <a href="http://github.com/Satellite-system">
             <img src={Github} alt="github"/></a>

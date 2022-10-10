@@ -1,7 +1,7 @@
 import Navbar from "./component/navbar/Navbar";
 import './App.css'
 import Intro from "./component/Intro/Intro";
-import Services from "./component/Services/Services";
+import Education from "./component/Education/Education";
 import Experience from "./component/Experience/Experience";
 import Works from "./component/Works/Works";
 import Portfolio from "./component/Portfolio/Portfolio";
@@ -19,7 +19,7 @@ function App() {
     <div className="App" style={{background: darkMode?'#000000':'', color: darkMode?'#ffffff':''}}>
       <Navbar />
       <Intro />
-      <Services/>
+      <Education/>
       <Experience/>
       <Works/>
       <Portfolio/>
