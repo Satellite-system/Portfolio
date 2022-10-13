@@ -26,6 +26,10 @@
    font-size: 14px;
    margin-top: 1rem;
 }
+.awesome>a{
+   width: 8rem;
+   height: 3rem;
+}
 .s-btn{
    width: 8rem;
    height: 2rem;
