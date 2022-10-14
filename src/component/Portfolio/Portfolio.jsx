@@ -7,8 +7,10 @@ import hoc from '../../img/assets/hoc.png'
 import musicapp from '../../img/assets/musicapp.png'
 import Notes_slidebar from '../../img/slidebar_P/Sidebar-N.png'
 import Amazon_slider from '../../img/slidebar_P/Slidebar-A.png'
+import Disney from '../../img/slidebar_P/Slidebar-D.png'
 import 'swiper/css'
 import { themeContext } from '../../Context'
+import { Autoplay } from 'swiper';
 
 export default function Portfolio() {
    const theme = useContext(themeContext);
@@ -22,14 +24,22 @@ export default function Portfolio() {
          <span>Portfolio</span>
 
          {/* Slider */}
-         <Swiper className='porfolio-slider' spaceBetween={{innerWidth}>480?30:100}  slidesPerView={innerWidth>480?3:1} grabCursor={true} loop={true} >
+         <Swiper modules={[Autoplay]} autoplay={{
+         delay: 3500,
+         disableOnInteraction: false,
+       }}
+         className='porfolio-slider' spaceBetween={{innerWidth}>480?30:100}  slidesPerView={innerWidth>480?3:1} grabCursor={true} loop={true} >
+            <SwiperSlide >
+               <img src={Notes_slidebar} alt="Notes Taking React Project" />
+            </SwiperSlide>
             <SwiperSlide>
-               <img src={Notes_slidebar} alt="" />
+               <img src={Disney} alt="" />
             </SwiperSlide>
             <SwiperSlide>
                <img src={Amazon_slider} alt="" />
             </SwiperSlide>
-            <SwiperSlide>
+            {/*
+             <SwiperSlide>
                <img src={sidebar} alt="" />
             </SwiperSlide>
             <SwiperSlide>
@@ -40,7 +50,8 @@ export default function Portfolio() {
             </SwiperSlide>
             <SwiperSlide>
                <img src={hoc} alt="" />
-            </SwiperSlide>
+            </SwiperSlide> 
+            */}
          </Swiper>
          
     </div>
