@@ -4,8 +4,9 @@
    height: 100vh;
    margin-top: 4rem;
 }
-.awesome>span:nth-last-of-type(1){
-   font-size: 1rem;
+.awesome>span:nth-of-type(3){
+   font-size: 0.8rem;
+   color: black;
 }
 .w-job{
    display: flex;

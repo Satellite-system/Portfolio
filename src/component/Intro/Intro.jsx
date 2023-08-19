@@ -10,7 +10,7 @@ import Vector1 from '../../img/assets/Vector1.png'
 import Vector2 from '../../img/assets/Vector2.png'
 import boy from '../../img/assets/boy.png'
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
-import Resume from './Adarsh Urmaliya Resume.pdf'
+import Resume from '../../Resume/Adarsh Urmaliya Resume.pdf'
 import { themeContext } from '../../Context';
 
 function Intro() {

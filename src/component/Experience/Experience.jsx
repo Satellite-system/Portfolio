@@ -14,7 +14,7 @@ function Experience() {
          <span>Experience</span>
       </div>
       <div className="achievement">
-         <div className="circle">10+</div>
+         <div className="circle">15+</div>
          <span style={darkMode?{color:"#ffffff"}:{}}>completed</span>
          <span>Projects</span>
       </div>

@@ -4,7 +4,7 @@ import './Education.css'
 import heartEmoji from '../../img/assets/heartemoji.png'
 import glasses from '../../img/assets/glasses.png'
 import humble from '../../img/assets/humble.png'
-import Resume from './Adarsh Urmaliya Resume.pdf'
+import Resume from '../../Resume/Adarsh Urmaliya Resume.pdf'
 import { themeContext } from '../../Context'
 
 const Education = () => {
@@ -12,7 +12,7 @@ const Education = () => {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className="services" id='Services'>
+    <div className="services" id='Education'>
       <div className="awesome">
         <span style={darkMode? {color:'#ffffff'}:{}}>My Education &</span>
         <span>Skills</span>

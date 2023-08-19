@@ -14,10 +14,10 @@ function Navbar() {
          <div className="n-list">
             <ul>
                <li> <Link spy={true} smooth={true} to='Navbar'>Home</Link> </li>
-               <li><Link spy={true} smooth={true} to='Services'>Services</Link> </li>
+               <li><Link spy={true} smooth={true} to='Education'>Education</Link> </li>
                <li><Link spy={true} smooth={true} to='Experience'>Experience</Link></li>
                <li><Link spy={true} smooth={true} to='Portfolio'>Porfolio</Link> </li>
-               <li><Link spy={true} smooth={true} to='Testimonial'>Testimonial</Link> </li>
+               {/* <li><Link spy={true} smooth={true} to='Testimonial'>Testimonial</Link> </li> */}
             </ul>
             
             <button className="btn n-btn"><Link spy={true} smooth={true} to='Contact'>Contact</Link></button>
